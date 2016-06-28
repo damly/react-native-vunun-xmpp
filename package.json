@@ -1,0 +1,32 @@
+{
+  "name": "react-native-vunun-xmpp",
+  "version": "1.0.0",
+  "description": "react native xmpp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damly/react-native-vunun-xmpp.git"
+  },
+  "keywords": [
+    "react native",
+    "xmpp"
+  ],
+  "author": "damly",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/damly/react-native-vunun-xmpp/issues"
+  },
+  "homepage": "https://github.com/damly/react-native-vunun-xmpp#readme",
+  "nativePackage": true,
+  "rnpm": {
+    "android": {
+      "packageInstance": "new RNXMPPPackage()"
+    },
+    "ios": {
+      "project": "ios/RNXmpp.xcodeproj"
+    }
+  }
+}
